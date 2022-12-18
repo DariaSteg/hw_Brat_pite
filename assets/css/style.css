@@ -1,0 +1,49 @@
+:root {
+  font-size: 30px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.user-card{
+  max-width: 400px;
+  width: 100%;
+  min-width: 200px;
+  margin: auto;
+  text-align: center;
+}
+.user-card__avatar>img{
+  clip-path: polygon(76% 0, 100% 70%, 50% 100%, 0% 70%, 24% 0);
+}
+.bottom_line{
+  float: right;
+}
+.top_line,.bottom_line{
+  width: 10%;
+  transition-property: width;
+  transition-duration: 3s;
+  transition-delay: 0.5s;
+  transition-timing-function: ease;
+  border: 3px solid rgb(111, 103, 130);
+}
+
+.content:hover>.top_line,
+.content:hover>.bottom_line{
+  width: 100%;
+}
+
+
+
