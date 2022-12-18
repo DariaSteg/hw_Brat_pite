@@ -34,8 +34,8 @@ img{
 .top_line,.bottom_line{
   width: 10%;
   transition-property: width;
-  transition-duration: 3s;
-  transition-delay: 0.5s;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
   transition-timing-function: ease;
   border: 3px solid rgb(111, 103, 130);
 }
